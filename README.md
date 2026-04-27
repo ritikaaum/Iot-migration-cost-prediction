@@ -93,6 +93,23 @@ python pipeline.py --data RT_IOT2022.csv --no-optimizer
 ---
 ## Project Structure
 
+```
+iot-migration-cost-prediction/
+│
+├── My_Project.ipynb                  # Full Jupyter notebook
+├── pipeline.py                       # Automated end-to-end pipeline
+├── optimizer_recommendations.csv     # Cloud recommendations for all flows
+├── Final_Report.pdf                  # Complete academic report
+│
+├── figure1_eda_plots.png             # Figure 1: Exploratory Data Analysis
+├── figure2_correlation.png           # Figure 2: Feature Correlation Heatmap
+├── figure3_log_transform.png         # Figure 3: Log Transformation
+├── figure4_actual_vs_predicted.png   # Figure 4: Actual vs Predicted
+├── figure5_feature_importance.png    # Figure 5: Feature Importance
+├── figure6_adaptive_performance.png  # Figure 6: Adaptive Retraining
+├── figure7_optimizer_analysis.png    # Figure 7: Cloud Optimizer
+└── figure8_shap_explanation.png      # Figure 8: SHAP Explainability
+```
 ---
 
 ## Models Compared
